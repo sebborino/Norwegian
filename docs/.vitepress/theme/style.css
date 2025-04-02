@@ -1,0 +1,37 @@
+:root {
+  --vp-c-brand-1: #646cff;
+  --vp-c-brand-2: #747bff;
+}
+
+/* Juster størrelsen af flagene */
+.flag-icon {
+  width: 20px; /* Flagstørrelse */
+  height: 14px; /* Flagstørrelse */
+  margin-right: 5px; /* Afstand mellem flag og tekst */
+}
+
+/* Stil for sprogmenupunkter */
+.nav a {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.nav a .flag-icon {
+  margin-right: 8px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Juster afstanden mellem kolonnerne */
+  margin-top: 20px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  color: #002a3a;
+}
