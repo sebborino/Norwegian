@@ -45,8 +45,8 @@ everything is mandatory except Rush Tag Number is (recommended). Max 10 bags you
 
 ![Bag](../../assets/images/step-8.png)
 
-
-### Flight 
+--- 
+# Flight 
 ## Passenger Routing
 
 Flight, Date, Origin: Departure Station and Destination: Arrival Station. And you can add more routes from Add another flight.
@@ -58,7 +58,9 @@ Flight: (information on bagtag if passenge rebooked) and Date. And you can add m
 
 ![Bag Routing](../../assets/images/step-10.png)
 
-### Delivery
+
+---
+ # Delivery
 
 ## Local Delivery Instructions
 
@@ -71,7 +73,7 @@ Very important to Select the correct Delivery type. the most popular delivery ty
 
 ![Delivery Local Delivery Instructions](../../assets/images/step-11.png)
 
-
+---
 # More 
 
 ## Further Information / Supplementary Information
@@ -89,3 +91,4 @@ Extra Information for internal use (not Public).
 ***Be sure at you fill all the pages and all information is added correctly***
 
 ![Be sure at you fill all the pages and all information is added correctly](../../assets/images/step-14.png)
+

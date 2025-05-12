@@ -35,3 +35,57 @@
   background: white;
   color: #002a3a;
 }
+h1 + h2 {
+  border-top: none !important;
+  margin: 16px 0 16px!important;
+}
+
+.vp-doc hr {
+  margin: 20px 0 25px!important;
+
+}
+
+.VPSidebar .VPLink.is-active {
+  border-left: 4px solid #0070f3!important; /* Blå streg */
+  padding-left: 10px!important;; /* Justér padding for at få plads til stregen */
+  color: #dadad1!important;
+
+}
+
+/* Grundlæggende menu */
+.VPSidebarItem.level-1.is-link {
+  border-left: 1px solid var(--vp-c-divider); /* Venstre kantlinje */
+  padding-left: 16px;
+  position: relative; /* Sørg for, at pseudo-elementet kan placeres korrekt */
+}
+
+/* Når elementet er aktivt */
+.VPSidebarItem.level-1.is-link.is-active {
+  font-weight: bold;
+  border-left: 2px solid var(--vp-c-brand-1); /* Aktiv venstre kantlinje */
+}
+
+/* Pseudo-element til venstre kantlinje (fade-in effekt) */
+.VPSidebarItem.level-1.is-link.is-active::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px; /* Juster bredden af kantlinjen (tyndere) */
+  background-color: var(--vp-c-brand-1); /* Farven på linjen */
+  height: 0; /* Brug 100% af menuens højde */
+
+
+}
+
+
+.VPSidebar h4 {
+  padding-top: 8px;
+  color:  var(--vp-c-brand-4);
+  font-size: 18px;
+  font-style: bold;
+}
+
+.VPSidebarItem.level-1.is-active > .item .link > .text{
+  color: #dadad1!important;
+}
